@@ -1,0 +1,26 @@
+.header-container {
+  margin: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-container p {
+  width:95%;
+}
+
+.collapsable {
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  text-align: center;
+  color: lightgrey;
+  font-size: large;
+  box-shadow: 1px 1px 3px grey;
+  
+}
+
+@media(min-width:758px) {
+  .collapsable {
+    display:none;
+  }
+}
